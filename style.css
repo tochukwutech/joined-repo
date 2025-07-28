@@ -8,10 +8,10 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 4% 5%;
     align-items: center;
     background-color: white;
-    height: 150px;
+    height: 100px;
 }
 
 ul {
@@ -68,7 +68,7 @@ ul li a {
 
 .under button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1em;
     cursor: pointer;
     height: 40px;
     background-color: rgb(136, 152, 234);
@@ -98,4 +98,102 @@ body, html {
 body {
     display: flex;
     flex-direction: column;
+}
+.curve-desktop {
+    width: 100%;
+    height: auto;
+}
+
+.second-section {
+    padding: 5%;
+    background-color: #f8f8ff;
+    height: 80vh;
+    display: flex;
+}
+
+.sec2-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('images/illustration-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.sec2-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4%;
+}
+
+.sec2-right h1 {
+    font-size: 2.2em;
+}
+
+.p1,.p2 {
+    width: 75%;
+    font-size: 0.95em;
+    text-align: right;
+}
+
+.link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7%;
+    width: 100%;
+    color: rgb(97, 160, 152);
+}
+
+.testimonial-card {
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 5%;
+}
+
+.quotes {
+    width: 20px;
+    height: 50px;
+}
+
+.testimonial-card p {
+    color: black;
+    line-height: 2;
+}
+
+.avatar {
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.avatar img {
+    width: 20%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    font-size: .7em;
 }
